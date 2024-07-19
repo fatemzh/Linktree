@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       rel="icon"
       type="image/png"
@@ -14,32 +13,55 @@
     <title>Frontend Mentor | Social links profile</title>
   </head>
   <body>
-    <main id="main-content" class="container">
+    <main id="main-content" class="container" role="main">
       <div id="img">
-        <img src="./assets/images/avatar-jessica.jpeg" alt="Personal Picture of the page's owner">
+        <img
+          src="./assets/images/avatar-jessica.jpeg"
+          alt="Personal picture of Jessica Randall, the page's owner"
+        />
       </div>
-      <div id="header">
+      <header id="header" role="banner">
         <h1>Jessica Randall</h1>
         <h2>London, United Kingdom</h2>
         <p>"Front-end developer and avid reader"</p>
-      </div>
-      <div id="socials">
-        <div class="link">
+      </header>
+      <nav id="socials" role="navigation" aria-label="Social media links">
+        <a
+          href="https://github.com"
+          class="link"
+          aria-label="Github profile of Jessica Randall"
+        >
           <p>Github</p>
-        </div>
-        <div class="link">
+        </a>
+        <a
+          href="https://frontendmentor.io"
+          class="link"
+          aria-label="Frontend Mentor profile of Jessica Randall"
+        >
           <p>Frontend Mentor</p>
-        </div>
-        <div class="link">
+        </a>
+        <a
+          href="https://linkedin.com"
+          class="link"
+          aria-label="Linkedin profile of Jessica Randall"
+        >
           <p>Linkedin</p>
-        </div>
-        <div class="link">
+        </a>
+        <a
+          href="https://twitter.com"
+          class="link"
+          aria-label="Twitter profile of Jessica Randall"
+        >
           <p>Twitter</p>
-        </div>
-        <div class="link">
+        </a>
+        <a
+          href="https://instagram.com"
+          class="link"
+          aria-label="Instagram profile of Jessica Randall"
+        >
           <p>Instagram</p>
-        </div>
-      </div>
+        </a>
+      </nav>
     </main>
   </body>
 </html>
