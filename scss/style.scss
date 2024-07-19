@@ -93,15 +93,15 @@ body {
       color: white;
       font-size: $fontsize;
       text-align: center;
-      text-decoration: none;  // Ensure links have no default underlines
+      text-decoration: none;  
 
       &:hover {
         cursor: pointer;
-        background-color: rgb(41, 1, 161);
+        background-color: rgb(74, 74, 74);
       }
 
       &:focus {
-        outline: 2px solid $green;  // Add focus outline for accessibility
+        outline: 2px solid $green;  
       }
     }
   }

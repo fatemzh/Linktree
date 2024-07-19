@@ -81,7 +81,7 @@ body {
 }
 .container #socials .link:hover {
   cursor: pointer;
-  background-color: rgb(41, 1, 161);
+  background-color: rgb(74, 74, 74);
 }
 .container #socials .link:focus {
   outline: 2px solid hsl(75, 94%, 57%);
